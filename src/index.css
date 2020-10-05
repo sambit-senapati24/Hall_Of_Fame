@@ -1,13 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /*background-image: linear-gradient(#42275a,#734b6d);*/
+  text-align: center;
+  background-image: linear-gradient(#000428,#004e92);
+  color: rgb(192, 135, 51);
+}
+.logIn {
+  background-image: linear-gradient(#000428,#004e92);
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.soccer{
+  height: 100vh;
+  margin-bottom: 0px;
+}
+.soccerImg{
+  height:inherit;
+}
+.userLogin {
+  flex-grow: 1;
+  text-align: center;
+}
+.metaData {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.icon{
+  margin-top: 40px;
+  text-align: center;
+}
+.userIcon{
+  height: 120px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.username {
+  padding-left: 8px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 300px;
+  height: 40px;
+  background-color: rgb(212, 201, 201);
+}
+.password {
+  margin-top: 10px;
+  padding-left: 8px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 300px;
+  height: 40px;
+  background-color: rgb(212, 201, 201);
+}
+.logInButton {
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  width: 308px;
+  height: 40px;
+  margin-top: 10px;
+  font-weight: bolder;
+  background-color: rgba(128, 236, 85, 0.849);
+  color: aliceblue;
+  margin-bottom: 8px;
+}
+.signUpButton {
+  outline: none;
+  border: 2px solid  rgba(128, 236, 85, 0.849);
+  color:  rgba(128, 236, 85, 0.849);
+  border-radius: 15px;
+  width: 308px;
+  height: 40px;
+  margin-top: 10px;
+  font-weight: bolder;
+  background-color: rgba(120, 235, 74, 0);
+  margin-bottom: 8px;
+}
+
+.signUpPage {
+  height:100vh;
+  background-image: linear-gradient(#000428,#004e92);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.signUpForm{
+  text-align: center;
+}
+.metaDataSignUp{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+input {
+  padding-left: 8px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  width: 300px;
+  height: 40px;
+  background-color: rgb(212, 201, 201);
+  margin-bottom: 20px;
+}
+button {
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  width: 308px;
+  height: 40px;
+  margin-top: 10px;
+  font-weight: bolder;
+  background-color: rgba(128, 236, 85, 0.849);
+  color: aliceblue;
+  margin-bottom: 8px;
+}
+.home{
+  background-image: linear-gradient(#000428,#004e92);
+  min-height: 100vh;
+}
+.error{
+  background-image: linear-gradient(#000428,#004e92);
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.errorImg {
+  height: 100vh;
+}
+.tile {
+  display: flex;
+  border: 4px solid greenyellow;
+  border-radius: 10px;
+  height: 324px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.playerPic {
+  padding: 2px;
+  height: 320px;
+  width: 300px;
+  flex-grow: 0;
+}
+
+.playerName {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
